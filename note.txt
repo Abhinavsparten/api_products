@@ -1,0 +1,113 @@
+{
+  "coord": {
+    "lon": 74.0833,
+    "lat": 15.3333
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 305.36,
+    "feels_like": 305.55,
+    "temp_min": 305.36,
+    "temp_max": 305.36,
+    "pressure": 1005,
+    "humidity": 39,
+    "sea_level": 1005,
+    "grnd_level": 991
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.03,
+    "deg": 280,
+    "gust": 5.43
+  },
+  "clouds": {
+    "all": 66
+  },
+  "dt": 1682934646,
+  "sys": {
+    "type": 1,
+    "id": 9233,
+    "country": "IN",
+    "sunrise": 1682901624,
+    "sunset": 1682947264
+  },
+  "timezone": 19800,
+  "id": 1271157,
+  "name": "Goa",
+  "cod": 200
+}
+
+
+
+
+htmlData=''
+        for(i of Pdata){
+            htmlData=  `<div class="card" style="width: 18rem;">
+                       <img src="${flag}" class="card-img-top" alt="...">
+                       <div class="card-body">
+                       <h5 class="card-title">${cname}</h5>
+                       </div>
+                       <ul class="list-group list-group-flush">
+                       <li class="list-group-item"> capital - ${capital}</li>
+                       <li class="list-group-item"> population - ${population}</li>
+                       <li class="list-group-item"> currency - ${currency}</li>
+                       <li class="list-group-item"> symbol - ${symbol}</li>
+                      <li class="list-group-item"> language - ${lang}</li>
+                      </ul>
+  
+                      </div>`
+                result.innerHTML+=htmlData
+        }
+        
+
+        [
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+
+
+
+
+
+        <ul class="list-group list-group-flush">
+                       <li class="list-group-item"> capital - ${capital}</li>
+                       <li class="list-group-item"> population - ${population}</li>
+                       <li class="list-group-item"> currency - ${currency}</li>
+                       <li class="list-group-item"> symbol - ${symbol}</li>
+                      <li class="list-group-item"> language - ${lang}</li>
+                      </ul>
+  
+
+
+  <div class="card" style="width: 18rem;">
+  <img src="${data.image}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${data.title}</h5>
+    <p class="card-text">${data.description}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">data.price</li>
+    <li class="list-group-item"> ${data.category}</li>
+    <li class="list-group-item"> ${data.rating.rate}</li>
+  </ul>
+  
+</div>
+
+style="width: 15rem; height: 40rem"
+style="width: 12rem; height: 14rem"
